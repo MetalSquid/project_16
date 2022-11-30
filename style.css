@@ -1,45 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+  
 
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
+p {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 25px;
+}
 /* Basic Layout of containers */
 
-header {
-    background-color: #6c4ab6;
-    color: #CFF5E7;
-    width:100%;
-    height: 200px;
-    
-}
 
-.calculator {
+  .content {
+      width: 60%;
+      margin: auto;
+  }
+  
+  .calculator{
+    float: left;
+    width: 34%;
+    padding: 10px;
+  
+  }
+  
+  .col2 {
+      float: left;
+    width: 66%;
+    padding: 10px;
+    color: #424242;
+  }
 
-}
-
-article {
-    width: 33.33%;
-    margin:auto;
-    display: flexbox;
-    color: #6c4ab6;
-    
-    
-}
+  .col2 h2 {
+    color: #00c95d;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 footer {
     background-color: #6c4ab6;
-    width: 100%;
-    margin-bottom: auto;
     height: 150px;
     
 }
 
-.contract, .socials, .info {
-    width: 33.33%;
-    margin-bottom: auto;
-
+header{
+    background-color: #6c4ab6;
+    height: 150px;
+    
+    
 }
 
 
