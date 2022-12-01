@@ -1,6 +1,71 @@
-html {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-    color: white;
-    background-color: black;
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/* Basic Layout of containers */
+
+header {
+    background-color: #6c4ab6;
+    color: #CFF5E7;
+    width:100%;
+    height: 200px;
+    
+}
+
+.calculator {
+
+}
+
+article {
+    width: 33.33%;
+    margin:auto;
+    display: flexbox;
+    color: #6c4ab6;
+    
+    
+}
+
+footer {
+    background-color: #6c4ab6;
+    width: 100%;
+    margin-bottom: auto;
+    height: 150px;
+    
+}
+
+.contract, .socials, .info {
+    width: 33.33%;
+    margin-bottom: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Colors */
+/* 6C4AB6
+8D72E1
+8D9EFF
+B9E0FF
+
+body {
+    color: #cff5e7; CFF5E7
+    color: #a0e4cb; A0E4CB
+   color:#59c1bd; 59C1BD
+    color: #0d4c92;
+
+}
+ */

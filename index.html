@@ -6,116 +6,191 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Insulin Dosage</title>
-  <link rel="stylesheet" href="/home/benhain/Documents/Projects/project_16/style.css" />
+  <link rel="stylesheet" href="/home/benhain/Documents/Projects/project_16/project_16/style.css" />
 </head>
 
 <body>
-  <script src="index.js"></script>
 
-  <h1>Insulin Dosage Calculator</h1>
+  <header>
+    <div class="banner-container">
+      <div class="site-map-container">
+        <nav>
+          site map
+        </nav>
+      </div>
+    </div>
+  </header>
 
-  <h2>Total Daily Insulin Requirement:</h2>
+  <!-- <div class="Calculator">
+    <div>Do you know your Dose?</div>
+    <div>Carb Coverage</div>
+    <div>High Blood Sugar Correction</div>
+    <div>Total</div>
+  </div> -->
 
-  <p>The general calculation for the body’s daily insulin requirement is:</p>
-  <p> Total Daily Insulin Requirement (in units of insulin)
-    = Weight in Pounds ÷ 4</p>
-  <p>Or if you use the metric system the calculation changes to:</p>
-  <p>Total Daily Insulin Requirement (in units of insulin)
-    = 0.55 X Total Weight in Kilograms</p>
-  <p>Example 1: a person who weighs 160lbs (or you can follow along with your weight)</p>
-  <p>TOTAL DAILY INSULIN DOSE
-    = 160 pounds ÷ 4 = 40 units of insulin/day
-  </p>
-  <p>Example 2: The same weight in kilograms or about 73kg:</p>
-  <p>TOTAL DAILY INSULIN DOSE
-    = 0.55 x 72.56 Kg = 39.9 units of insulin/day (round this up to 40 units)</p>
-  <p>Keep in mind, people have different sensitivities to insulin, so your actual daily dose may be slightly more or
-    less, and this is just a starting point. </p>
+  <article>
+    <div class="article">
 
+      <title>
+        <h1>Insulin Dosage Calculator</h1>
+      </title>
 
+      <section class="daily-container">
+        <h2>Total Daily Insulin Requirement:</h2>
 
-  <h2>Basal/Background and Bolus Insulin Doses</h2>
+        <p>The general calculation for the body’s daily insulin requirement is:</p>
+        <p> Total Daily Insulin Requirement (in units of insulin)
+          = Weight in Pounds ÷ 4</p>
+        <p>Or if you use the metric system the calculation changes to:</p>
+        <p>Total Daily Insulin Requirement (in units of insulin)
+          = 0.55 X Total Weight in Kilograms</p>
+        <p>Example 1: a person who weighs 160lbs (or you can follow along with your weight)</p>
+        <p>TOTAL DAILY INSULIN DOSE
+          = 160 pounds ÷ 4 = 40 units of insulin/day
+        </p>
+        <p>Example 2: The same weight in kilograms or about 73kg:</p>
+        <p>TOTAL DAILY INSULIN DOSE
+          = 0.55 x 72.56 Kg = 39.9 units of insulin/day (round this up to 40 units)</p>
+        <p>Keep in mind, people have different sensitivities to insulin, so your actual daily dose may be slightly
+          more
+          or
+          less, and this is just a starting point. </p>
+      </section>
 
-
-
-  <p>Now that we have an idea of how much insulin is needed per day, we need to know how to divide that between daily
-    background or meals. Remember Basal/background is for the day, and Bolus is for when we eat.
-  </p>
-  <p>Basal/background insulin dose:
-  </p>
-  <p>This is about 40-50% of our daily insulin requirement.
-  </p>
-  <p>Example: back to our 160-pound person above
-    we already know they need 40 units per day.
-  </p>
-  <p>Basal/background insulin dose
-    = 50% of Total Daily Inulin (TDI) (40 units) = 20 units background insulin
-    This is likely to be long-acting insulin like glargine or detemir. If you are using an insulin pump (or continuous
-    subcutaneous insulin infusion device) it’s probably rapid acting insulin instead.
-
-  </p>
-  <p>Bolus/Mealtime insulin dose:
-  </p>
-  <p>Typically, you want to eat the same number of carbs with each meal. This is called a Consistent Carbohydrate, or
-    Consistent Carb, meal plan. It makes it easier to adjust your blood sugars and keeps you from having spikes or drops
-    in blood sugar.
-  </p>
-
-  <p>The carbohydrate coverage ratio: Insulin for meals
-
-  </p>
-  <p>This can be calculated using the Rule of “500”: Carbohydrate Bolus Calculation
-
-  </p>
-  <p>500 ÷ Total Daily Insulin Dose
-    = 1 unit insulin covers so many grams of carbohydrate
-
-  </p>
-  <p>We write this as insulin:carbs eaten or say 1 unit:12g of carbs or more simply 1:12.
-
-  </p>
-  <p>Carbohydrate coverage ratio example:
-
-  </p>
-  <p>Ratio: 500 ÷ TDI (40 units) = 12
-    = 1unit insulin/ 12 g CHO
-
-  </p>
-  <p>This example assumes that you have a constant response to insulin throughout the day but remember insulin
-    sensitivity varies. Someone who is resistant in the morning, but sensitive at mid-day, will need to adjust the
-    insulin-to-carbohydrate ratio at different mealtimes. The background insulin dose would still be approximately 20
-    units, but the insulin-to-carb ratio might be breakfast 1 unit:8 grams, lunch 1 unit:15 grams and dinner 1 unit:12
-    grams.
-
-  </p>
+      <section class="bolus-container">
+        <h2>Basal/Background and Bolus Insulin Doses</h2>
 
 
-  <h2>The high blood sugar correction factor</h2>
+
+        <p>Now that we have an idea of how much insulin is needed per day, we need to know how to divide that between
+          daily
+          background or meals. Remember Basal/background is for the day, and Bolus is for when we eat.
+        </p>
+        <p>Basal/background insulin dose:
+        </p>
+        <p>This is about 40-50% of our daily insulin requirement.
+        </p>
+        <p>Example: back to our 160-pound person above
+          we already know they need 40 units per day.
+        </p>
+        <p>Basal/background insulin dose
+          = 50% of Total Daily Inulin (TDI) (40 units) = 20 units background insulin
+          This is likely to be long-acting insulin like glargine or detemir. If you are using an insulin pump (or
+          continuous
+          subcutaneous insulin infusion device) it’s probably rapid acting insulin instead.
+
+        </p>
+        <p>Bolus/Mealtime insulin dose:
+        </p>
+        <p>Typically, you want to eat the same number of carbs with each meal. This is called a Consistent
+          Carbohydrate,
+          or
+          Consistent Carb, meal plan. It makes it easier to adjust your blood sugars and keeps you from having spikes
+          or
+          drops
+          in blood sugar.
+        </p>
+
+        <p>The carbohydrate coverage ratio: Insulin for meals
+
+        </p>
+        <p>This can be calculated using the Rule of “500”: Carbohydrate Bolus Calculation
+
+        </p>
+        <p>500 ÷ Total Daily Insulin Dose
+          = 1 unit insulin covers so many grams of carbohydrate
+
+        </p>
+        <p>We write this as insulin:carbs eaten or say 1 unit:12g of carbs or more simply 1:12.
+
+        </p>
+        <p>Carbohydrate coverage ratio example:
+
+        </p>
+        <p>Ratio: 500 ÷ TDI (40 units) = 12
+          = 1unit insulin/ 12 g CHO
+
+        </p>
+        <p>This example assumes that you have a constant response to insulin throughout the day but remember insulin
+          sensitivity varies. Someone who is resistant in the morning, but sensitive at mid-day, will need to adjust
+          the
+          insulin-to-carbohydrate ratio at different mealtimes. The background insulin dose would still be
+          approximately
+          20
+          units, but the insulin-to-carb ratio might be breakfast 1 unit:8 grams, lunch 1 unit:15 grams and dinner 1
+          unit:12
+          grams.
+
+        </p>
+      </section>
+
+      <div class="photo-container">
+        <div class="photo">Photo</div>
+      </div>
+
+      <section class="cf-container">
 
 
-  <p>Sometimes we eat more than usual, or the serving size wasn’t as obvious as first thought. Sometimes when we’re sick or hurt our liver releases more sugar into the blood. Whatever the reason, occasionally we will want to correct a high blood sugar. Since the correction will be different every time, we need an easy way to determine how many units are needed. Keep in mind we’re using rapid acting insulin to correct the high blood sugar. This can be calculated using “The Rule of 1800”.
 
-  </p>
-  <p>Correction Factor (CF) = 1800 ÷Total Daily Insulin Dose 
-    or 1 unit of insulin will reduce the blood sugar so many mg/dl
 
-  </p>
-  <p>We’re going to use the same 160lb person for this example, so our total daily insulin (TDI) is 40units.
 
-  </p>
-  <p>Correction Factor = 1800 ÷ TDI (40 units)
-    = 1 unit insulin will reduce the blood sugar level by 45 mg/dl
 
-  </p>
-  <p>Since sensitivity can vary, some people will also round up or down. So 1 unit reduces blood sugar by 45 then becomes 1 unit reduces by 40-50mg/dl. 
+        <h2>The high blood sugar correction factor</h2>
 
-  </p>
-  <p>Please keep in mind this is just a starting point and everyone responds differently so your insulin plan may need to be adjusted by your medical team from time to time.
 
-  </p>
-  <p> My poor eyes
+        <p>Sometimes we eat more than usual, or the serving size wasn’t as obvious as first thought. Sometimes when
+          we’re
+          sick
+          or hurt our liver releases more sugar into the blood. Whatever the reason, occasionally we will want to
+          correct
+          a
+          high blood sugar. Since the correction will be different every time, we need an easy way to determine how
+          many
+          units
+          are needed. Keep in mind we’re using rapid acting insulin to correct the high blood sugar. This can be
+          calculated
+          using “The Rule of 1800”.
 
-  </p>
+        </p>
+        <p>Correction Factor (CF) = 1800 ÷Total Daily Insulin Dose
+          or 1 unit of insulin will reduce the blood sugar so many mg/dl
+
+        </p>
+        <p>We’re going to use the same 160lb person for this example, so our total daily insulin (TDI) is 40units.
+
+        </p>
+        <p>Correction Factor = 1800 ÷ TDI (40 units)
+          = 1 unit insulin will reduce the blood sugar level by 45 mg/dl
+
+        </p>
+        <p>Since sensitivity can vary, some people will also round up or down. So 1 unit reduces blood sugar by 45
+          then
+          becomes 1 unit reduces by 40-50mg/dl.
+
+        </p>
+        <p>Please keep in mind this is just a starting point and everyone responds differently so your insulin plan
+          may
+          need
+          to be adjusted by your medical team from time to time.
+
+        </p>
+      </section>
+
+    </div>
+  </article>
+
+
+  <footer>
+
+    <div class="footer">
+      <div class="contact">contact</div>
+      <div class="socials">socials</div>
+      <div class="info">Info</div>
+    </div>
+
+  </footer>
+
+
 </body>
 
 </html>
